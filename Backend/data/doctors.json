@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Anjali Sharma",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "specialization": "Cardiologist",
+    "location": "Delhi",
+    "experience": 10,
+    "consultationFee": 500,
+    "gender": "Female",
+    "hasPatientStories": true,
+    "availability": ["Monday", "Wednesday", "Friday"]
+  },
+  {
+    "id": "2",
+    "name": "Dr. Rajeev Mehta",
+    "avatar": "https://randomuser.me/api/portraits/men/46.jpg",
+    "specialization": "Dermatologist",
+    "location": "Mumbai",
+    "experience": 7,
+    "consultationFee": 400,
+    "gender": "Male",
+    "hasPatientStories": false,
+    "availability": ["Tuesday", "Thursday"]
+  },
+  {
+    "id": "3",
+    "name": "Dr. Neha Verma",
+    "avatar": "https://randomuser.me/api/portraits/women/47.jpg",
+    "specialization": "Pediatrician",
+    "location": "Bangalore",
+    "experience": 5,
+    "consultationFee": 300,
+    "gender": "Female",
+    "hasPatientStories": true,
+    "availability": ["Monday", "Tuesday"]
+  },
+  {
+    "id": "4",
+    "name": "Dr. Suresh Iyer",
+    "avatar": "https://randomuser.me/api/portraits/men/49.jpg",
+    "specialization": "Orthopedic",
+    "location": "Chennai",
+    "experience": 12,
+    "consultationFee": 600,
+    "gender": "Male",
+    "hasPatientStories": true,
+    "availability": ["Wednesday", "Saturday"]
+  },
+  {
+    "id": "5",
+    "name": "Dr. Meera Joshi",
+    "avatar": "https://randomuser.me/api/portraits/women/50.jpg",
+    "specialization": "Gynecologist",
+    "location": "Hyderabad",
+    "experience": 8,
+    "consultationFee": 450,
+    "gender": "Female",
+    "hasPatientStories": false,
+    "availability": ["Thursday", "Friday"]
+  },
+  {
+    "id": "6",
+    "name": "Dr. Arvind Rao",
+    "avatar": "https://randomuser.me/api/portraits/men/51.jpg",
+    "specialization": "Neurologist",
+    "location": "Pune",
+    "experience": 15,
+    "consultationFee": 800,
+    "gender": "Male",
+    "hasPatientStories": true,
+    "availability": ["Monday", "Thursday"]
+  },
+  {
+    "id": "7",
+    "name": "Dr. Ritu Kapur",
+    "avatar": "https://randomuser.me/api/portraits/women/52.jpg",
+    "specialization": "Psychiatrist",
+    "location": "Kolkata",
+    "experience": 9,
+    "consultationFee": 550,
+    "gender": "Female",
+    "hasPatientStories": true,
+    "availability": ["Wednesday", "Saturday"]
+  },
+  {
+    "id": "8",
+    "name": "Dr. Aman Gupta",
+    "avatar": "https://randomuser.me/api/portraits/men/53.jpg",
+    "specialization": "ENT Specialist",
+    "location": "Ahmedabad",
+    "experience": 6,
+    "consultationFee": 350,
+    "gender": "Male",
+    "hasPatientStories": false,
+    "availability": ["Tuesday", "Friday"]
+  },
+  {
+    "id": "9",
+    "name": "Dr. Kavita Desai",
+    "avatar": "https://randomuser.me/api/portraits/women/54.jpg",
+    "specialization": "Oncologist",
+    "location": "Jaipur",
+    "experience": 11,
+    "consultationFee": 900,
+    "gender": "Female",
+    "hasPatientStories": true,
+    "availability": ["Monday", "Thursday"]
+  },
+  {
+    "id": "10",
+    "name": "Dr. Nikhil Arora",
+    "avatar": "https://randomuser.me/api/portraits/men/55.jpg",
+    "specialization": "Urologist",
+    "location": "Lucknow",
+    "experience": 13,
+    "consultationFee": 700,
+    "gender": "Male",
+    "hasPatientStories": true,
+    "availability": ["Wednesday", "Friday"]
+  }
+]
