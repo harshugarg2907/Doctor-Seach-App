@@ -3,11 +3,11 @@
 import { DoctorSearchAndFilter } from '@/components/doctor-search-and-filter';
 import { Logo } from '@/components/icons';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+// import { useSearchParams } from 'next/navigation';
 
 export default function DoctorsPage() {
-  const searchParams = useSearchParams();
-  const searchQuery = searchParams.get('search')?.toLowerCase() || '';
+  // const searchParams = useSearchParams();
+  const searchQuery = '';
 
   return (
     <div className="flex flex-col min-h-screen">
