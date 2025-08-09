@@ -8,6 +8,8 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { MapPin, Search, Stethoscope, X, CheckCircle2 } from 'lucide-react';
+import { env } from 'node:process';
+
 
 type Props = {
   searchQuery: string;
@@ -31,7 +33,7 @@ export function DoctorSearchAndFilter({ searchQuery }: Props) {
 
     async function fetchDoctors() {
       try {
-        const res = await fetch('http://localhost:5000/api/doctors');
+       const res = await fetch(process.env.API_SOURCE || 'https://doctor-seach-app.onrender.com/api/doctors');
         const data = await res.json();
         setAllDoctors(data);
 
